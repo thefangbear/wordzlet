@@ -17,6 +17,7 @@ wordzlet = Vocab + Merriam-Webster Definition + Quizlet API
  - [testfile.txt](https://quizlet.com/178733991/dynamiccachetestfiletxt-flash-cards/)
  - [holt1-8.txt](https://quizlet.com/178734153/dynamiccacheholt1-8txt-flash-cards/)
  - [holt9-16.txt](https://quizlet.com/178734283/dynamiccacheholt9-16txt-flash-cards/)
+ - [merriam-webster-all.txt](https://quizlet.com/178736576/dynamiccachemerriam-webster-alltxt-flash-cards/)
 
 ## License
 Released under the MIT License.
