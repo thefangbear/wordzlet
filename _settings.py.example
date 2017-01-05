@@ -1,0 +1,14 @@
+"""
+_settings.py - Adjust Settings
+"""
+# System settings
+
+READ_FILE_PATH = ".dynamicCache/testfile.txt"
+
+# Quizlet-related settings
+
+QUIZLET_ACCESS_TOKEN = "youraccesstokenhere"
+
+# Dictionary settings
+# do not touch!!
+JSON_DICT_PATH = "https://github.com/repo-archives/dictionary/raw/master/dictionary.json"
