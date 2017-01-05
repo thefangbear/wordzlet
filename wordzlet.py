@@ -1,9 +1,11 @@
 
-import _settings
+# coding: utf-8
+
 import dict
 from ireport import report
 import _settings
-"""
+import qapi
+
 report("initialising dict from wordzleet")
 d = dict.Dictionary()
 report("opening file at " + _settings.READ_FILE_PATH)
@@ -15,16 +17,6 @@ words = [word.strip().strip('\t').strip('\n').lower() for word in file]
 report(words)
 s = dict.SetInput(file, d)
 
-print(s.word_pair)
-report("\n\n\n")
-print(s.words)
-report("\n\n\n")
-print(s.definitions)
-
-
-"""
-
-import qapi
 
 q = qapi.QuizletAPI()
-q.create_set("testSet001", ["milk", "asdfkjb", "lollol"], "en", ["honey", "123123", -133], "en")
+q.create_set("TestMerriamVocabInput", s.words, "en", s.definitions, "en")
