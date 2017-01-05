@@ -6,7 +6,7 @@ wordzlet = Vocab + Merriam-Webster Definition + Quizlet API
  - Copy over `_settings.py.example` to `_settings.py` and make sure everything fits your needs.
  - Run `wordzlet.py` and go check your quizlet page. Anything new?
 
-**Dictionary used: [adambom/dictionary: English Language Dictionary](https://github.com/adambom/dictionary)
+**Dictionary used: [adambom/dictionary: English Language Dictionary](https://github.com/adambom/dictionary)**
 
 ## Known issues
  - The json-version Merriam-Webster dictionary used doesn't recognize all forms of a word - outputs -1 and requires manual modification on a few cases.
