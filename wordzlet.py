@@ -19,4 +19,4 @@ s = dict.SetInput(file, d)
 
 
 q = qapi.QuizletAPI()
-q.create_set("TestMerriamVocabInput", s.words, "en", s.definitions, "en")
+q.create_set(_settings.READ_FILE_PATH, s.words, "en", s.definitions, "en")
